@@ -1,0 +1,51 @@
+:root{
+    --main-bg-color:purple;
+
+}
+
+
+.max-width-1{
+    max-width: 80vw;
+
+}
+.max-width-2{
+    max-width: 60vw;
+    
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn{
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: serif;
+    cursor: pointer;
+    transition: all;
+    
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: serif;
+}
+.form-box input,textarea{
+    width: 44vw;
+    padding: 10px 6px;
+    margin: 7px;
+    font-size: 18px;
+    font-family: serif;
+    border-radius: 10px solid orange;
+}
